@@ -1,0 +1,23 @@
+{
+  "name": "bookclub",
+  "version": "1.0.0",
+  "description": "a bookclub app for project 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-izzo/super-duper-bookclub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peter-izzo/super-duper-bookclub/issues"
+  },
+  "homepage": "https://github.com/peter-izzo/super-duper-bookclub#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
