@@ -85,6 +85,10 @@ View the deployed app [here](heroku link)
 
 ```
 
+## Table Model
+
+![workbench-table](public/assets/imgs/used-imgs/bookshelf-tables-demo.png)
+
 ### User Story
 
 ```
