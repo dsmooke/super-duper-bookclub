@@ -1,9 +1,11 @@
-<div>
-    <h1>{{title}}</h1>
-    <h3>{{author}}</h3>
-    <h2>{{year}}</h2>
-    <p>{{genre}}</p>
-    <p>{{summary}}</p>
-    <p>{{pages}}</p>
-    <p>{{isbn}}</p>
+<div class="bookBlock"></div>
+<div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Title:{{title}}</h2>
+      <h3 class="card-author">Author:{{author}}</h3>
+      <h3 class="card-genre">Genre:{{genre}}</h3>
+    </div>
+    <button class="button save-book" data-id="{{this.id}}">Save</button>
+   <button class="button delete-book" data-id="{{this.id}}">Remove</button>
+  </div>
 </div>
