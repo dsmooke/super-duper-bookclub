@@ -19,10 +19,15 @@
   },
   "homepage": "https://github.com/peter-izzo/super-duper-bookclub#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
     "mysql2": "^2.2.5",
     "sequelize": "^6.5.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0"
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
