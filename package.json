@@ -4,8 +4,9 @@
   "description": "a bookclub app for project 2",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint **/*.js --quiet",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
