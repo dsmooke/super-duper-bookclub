@@ -6,7 +6,7 @@ const bookModel = require("../models/book.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", (req, res) => {
-  bookModel.selectAll((data) => {
+  bookModel.all((data) => {
     const bookObj = {
       book: data,
     };
