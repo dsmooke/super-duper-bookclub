@@ -1,12 +1,14 @@
-INSERT INTO bookshelf (title, author, year, genre, summary, pages, isbn) 
+USE bookshelf_db;
 
-    title VARCHAR(30) NOT NULL,
-    author VARCHAR(30) NOT NOT,
-    year INTEGER NOT NULL,
-    genre VARCHAR(30),
-    summary VARCHAR(300),
-    pages INTEGER NOT NULL,
-    isbn INTEGER NOT NULL,
-    id PRIMARY KEY AUTO_INCREMENT
-    
-    ("The Great Gatsby", "F.Scott Fitzgerald", 1920, "fiction")
+INSERT INTO bookshelf (title, author, genre) 
+VALUES  ("The Great Gatsby", "F.Scott Fitzgerald", "fiction"),
+        ("Captain Underpants", "Dav Pilky", "youth"),
+        ("Gone With The Wind", "Margaret Mitchell", "historical-fiction"),
+        ("The Interview with a Vampire", "Anne Rice", "horror"),
+        ("1984", "George Orwell", "science-fiction"),
+        ("Henry V", "William Shakespeare", "drama"),
+        ("Lord of the Rings", "J.R.R. Tolkien", "fantasy"),
+        ("Murder on the Orient Express", "Agatha Christie", "mystery"),
+        ("Top Gun", "Dan Pederson", "autobiography"),
+        ("Sapiens", "Uyval Noah Harari", "non-fiction"),
+        ("The Notebook", "Nicholas Sparks", "romance");
