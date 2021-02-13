@@ -5,18 +5,9 @@ CREATE DATABASE bookshelf_db;
 USE bookshelf_db;
 
 CREATE TABLE bookshelf (
-    title VARCHAR(30) NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
     author VARCHAR(30) NOT NOT,
-    year INTEGER NOT NULL,
     genre VARCHAR(30),
-    summary VARCHAR(300),
-    pages INTEGER NOT NULL,
-    isbn INTEGER NOT NULL
+    PRIMARY KEY (id)
 );
-
-CREATE TABLE authors ();
-
-CREATE TABLE genres (
-    create class????
-    
-)
