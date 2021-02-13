@@ -1,0 +1,33 @@
+<h1>Book Swap</h1>
+
+<div>Don't know what to look for? Search by genre!</div>
+<select class="custom-select">
+    <option selected>Select a genre</option>
+    <option value="1">fiction</option>
+    <option value="2">non-fiction</option>
+    <option value="3">science-fiction</option>
+    <option value="4">historical-fiction</option>
+    <option value="5">autobiography</option>
+    <option value="6">youth</option>
+    <option value="7">mystery</option>
+    <option value="8">fantasy</option>
+    <option value="9">drama</option>
+    <option value="10">horror</option>
+    <option value="11">romance</option>
+</select>
+
+<div>Don't know what to choose? Check out what's on the shelf!</div>
+{{#each bookshelf}}
+<button type="button" class="btn btn-block">{{title}}</button>
+{{/each}}
+</div>
+
+<div class="card-deck">
+  {{#each book-block}}
+  {{/each}}
+</div>
+
+
+
+
+
