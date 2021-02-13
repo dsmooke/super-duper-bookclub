@@ -2,17 +2,17 @@ const express = require("express");
 const router = express.Router();
 
 // Import the model (burger.js) to use its database functions
-const bookModel = require("../models/book.js");
+const bookModel = require("../models/book");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", (req, res) => {
-  bookModel.all((data) => {
+  bookModel.selectAll((data) => {
     const bookObj = {
-      book: data,
+      books: data,
     };
     console.log(bookObj);
     res.render("index", {
-      book: data,
+      books: data,
     });
   });
 });
