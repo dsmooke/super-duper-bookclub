@@ -245,7 +245,8 @@ button:hover {
   /* word-wrap: break-word; */
   /* white-space: normal; */
 }
-/* book titles*/
+
+/* book titles for spines*/
 p {
   font-family: Times;
   transform: rotate(90deg);
@@ -264,9 +265,109 @@ p {
   margin: 20px;
   margin-top: 40px;
 }
-/* .card-body {
-  background-image: url("/public/assets/imgs/360_F_284049874_OJF6becL9IPzSfJ0jOguj0GB08Zp37mH.jpg");
-  color: white;
-} */
 
-/* background-image: url("/public/assets/imgs/360_F_284049874_OJF6becL9IPzSfJ0jOguj0GB08Zp37mH.jpg"); */
+/* @media screen and (min-width: 480px) {
+    .nav {width: 200px; padding:10px;}
+    container {margin-left: 216px;} */
+
+/* @media screen and (max-width: 320px) {
+  h1 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 14px;
+  }
+  * {
+    text-align: center !important;
+    width: auto !important;
+    font-size: 14px;
+  }
+
+  .col-3 {
+    align-items: center !important;
+    width: auto !important;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #permanent-books {
+    align-items: center !important;
+    width: auto !important;
+    border-width: 0px !important;
+    margin: 20%;
+    padding: 0px;
+  }
+
+  btn {
+    align-items: center !important;
+    margin: 20%;
+  }
+
+  .btn-block {
+    align-items: center !important;
+    margin: 20%;
+  }
+
+  .col-3 {
+    width: 50%;
+    align-items: center;
+  }
+  #permanent-books {
+    width: 50%;
+  }
+  .nav-tabs {
+    text-align: center;
+    width: auto;
+    word-wrap: inherit;
+  }
+
+  .btn-block {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .col-3 {
+    width: 50%;
+    align-items: center;
+  }
+  #permanent-books {
+    width: 50%;
+    text-align: center;
+  }
+  .nav-tabs {
+    text-align: center;
+    width: auto;
+    word-wrap: break-word;
+  }
+  .btn-block {
+    width: 50%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .col-3 {
+    width: 50%;
+  }
+  .nav-tabs {
+    text-align: center;
+    width: auto;
+    word-wrap: break-word;
+  }
+  #permanent-books {
+    width: auto;
+    text-align: center;
+  }
+  .btn-block {
+    width: 50%;
+  }
+} */
