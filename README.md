@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the second project/fifthteenth assigment from the UConn Coding Boot Camp curriculum.
+This is the second project (fifthteenth assigment) from the UConn Coding Boot Camp curriculum.
 
 View the deployed app [here](heroku link)
 
@@ -14,7 +14,7 @@ View the deployed app [here](heroku link)
 - [File Structure ](#file-structure)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Business Context](#business-context)
+- [Presentation Requirements](#presentation-requirements)
 - [Definitions](#definitions)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -46,6 +46,8 @@ View the deployed app [here](heroku link)
 - Framebox
 
 ## Instructions
+
+You and your team will design and build an app using the MVC paradigm and your own server-side API. You will also continue to add to your professional repertoire with testing, continuous integration and linting tools.
 
 ### File Structure
 
@@ -85,16 +87,22 @@ View the deployed app [here](heroku link)
 
 ```
 
-## Table Model
+## Process
+
+### Workbench Table
 
 ![workbench-table](public/assets/imgs/used-imgs/bookshelf-tables-demo.png)
+
+### Wireframe
+
+![wireframe-draft-1](public/assets/imgs/bookclub-wireframe-1.png)
 
 ### User Story
 
 ```
-AS A
-I WANT
-SO THAT
+AS A book buyer
+I WANT an application that finds books based on a selected genre
+SO THAT I can narrow my book search and get back to reading.
 
 ```
 
@@ -103,13 +111,43 @@ SO THAT
 The application must meet the following requirements:
 
 ```
-GIVEN
-WHEN
-THEN
+GIVEN a book finding application that finds books based on user's selection
+WHEN a user clicks on the link
+THEN the application will open in Heroku
+WHEN a user selects a genre
+THEN the top three books of the selected genre are displayed
+
+WHEN a user clicks the save button
+THEN the user will be directed to a sign up page in order to save their books
+
+WHEN a user clicks the remove button
+THEN the book will be removed from the page
+
+
+
+WHEN the user clicks on one of the books on the shelf
+THEN the user will be taken to a description of the book along with a site where they can purchase the book
+WHEN the user examines the documentation of the application
+THEN the user will see a folder structure that meets the MVC paradigm
+WHEN the user examines the code of the application
+THEN the user will see code that meets good quality coding standards
+
 
 ```
 
-### Business Context
+### Presentation Requirements
+
+- Elevator pitch: a one minute description of your application
+
+- Concept: What is your user story? What was your motivation for development?
+
+- Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+
+- Demo: Show your stuff!
+
+- Directions for Future Development
+
+- Links to to the deployed application and the GitHub repository. Use this guide for deploying your application to Heroku if you need a reminder on how to deploy!
 
 ## Installation
 
@@ -126,9 +164,19 @@ THEN
    - This will create a `node_modules` file.
    - You are now ready to create your `index.js` file: `touch server.js`
 
+3. Install Express, Express-Handlebars, MySQL, and Sequelize
+
+4. Edit mysql connection with your local host, root, password, and port
+
+5. create `.eslintignore` file and add node_modules to it
+6. Install ESLint
+
+- edit `.eslintrc.json` file
+
 <!--1.
 
-3. Set up Inquirer package within your newly created `server.js` file.
+
+5. Set up Inquirer package within your newly created `server.js` file.
 
 ```
 const inquirer = require('inquirer');
@@ -174,6 +222,13 @@ The goals above and the tutorial can be further understood with the following de
 ## Credits
 
 Reference articles:
+[w3schools - collapse](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_collapse_simple&stacked=h)
+
+[multiple collapse buttons](https://stackoverflow.com/questions/63204909/bootstrap-multiple-collapse-items)
+
+[FrameBox - wireframe renderer](http://framebox.org/ANIRG)
+
+[ClickMinded - button generator](https://www.clickminded.com/button-generator/)
 
 ## Contributors
 
