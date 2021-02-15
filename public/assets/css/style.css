@@ -52,6 +52,72 @@ h3 {
   margin: 10px;
 }
 
+/*permanent book collapsed info*/
+h4 {
+  color: white; */
+  padding: 5px;
+  padding-left: 10px;
+  /* text-align: center; */
+}
+
+/*permanent book collapsed info box and position*/
+#collapseCaptain {
+  color: white;
+  margin-left: 14px;
+}
+
+#collapseGatsby {
+  color: white;
+  margin-left: 300px;
+}
+
+#collapseWind {
+  color: white;
+  margin-left: 585px;
+}
+
+#collapseVampire{
+  color: white;
+  margin-left: 14px;
+}
+
+#collapseOrwell{
+  color: white;
+  margin-left: 300px;
+}
+
+#collapseHenry{
+  color: white;
+  margin-left: 585px;
+}
+
+#collapseRing{
+  color: white;
+  margin-left: 14px;
+}
+
+#collapseMurder{
+  color: white;
+  margin-left: 300px;
+}
+
+#collapseGun{
+  color: white;
+  margin-left: 585px;
+}
+
+#collapseSap{
+  color: white;
+  margin-left: 14px;
+}
+
+#collapseNote{
+  color: white;
+  margin-left: 300px;
+}
+
+
+/* book covers */
 #captain {
   background-image: url("/public/assets/imgs/used-imgs/captain-underpants-book-cover.jpg");
   background-size: cover;
@@ -71,189 +137,15 @@ h3 {
   /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
   /* word-wrap: break-word; */
   /* white-space: normal; */
+  position:sticky;
 }
+
+/* book cover hover button*/
 button:hover {
   box-shadow: 0 8px 20px 0 rgb(255, 255, 255);
 }
 
-#gatsby {
-  background-image: url("/public/assets/imgs/used-imgs/gatsby-spine.jpeg");
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#underpants {
-  background-color: yellow;
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(49, 82, 233);
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#wind {
-  background-image: url("/public/assets/imgs/used-imgs/gone-wind-book-spine.jpg");
-  background-size: contain;
-  background-position-y: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#vampire {
-  /* background-image: url("/public/assets/imgs/used-imgs/gatsby-spine.jpeg");
-    background-size: contain; */
-  background-color: rgb(102, 10, 10);
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#orwell {
-  background-image: url("/public/assets/imgs/used-imgs/1984-2-book-spine.jpg");
-  background-size: contain;
-  font-family: times;
-  /* color: white; */
-  font-size: 20px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#henry {
-  background-color: rgb(11, 48, 14);
-  /* background-image: url("/public/assets/imgs/used-imgs/gatsby-spine.jpeg"); */
-  /* background-size: contain; */
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#lotr {
-  background-image: url("/public/assets/imgs/used-imgs/lotr-book-spine.jpeg");
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#murder {
-  background-image: url("/public/assets/imgs/used-imgs/murder-orient-1-book-spine.jpeg");
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#topgun {
-  /* background-image: url("/public/assets/imgs/used-imgs/lotr-book-spine.jpeg"); */
-  background-color: royalblue;
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#sapiens {
-  background-color: saddlebrown;
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-#notebook {
-  /* background-image: url("/public/assets/imgs/used-imgs/lotr-book-spine.jpeg"); */
-  background-color: seagreen;
-  background-size: contain;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: white; */
-  font-size: 5px;
-  /* padding: 190px 0px; */
-  /* margin: ; */
-  display: inline-block;
-  width: 80px;
-  height: 500px;
-  /* word-wrap: break-word; */
-  /* white-space: normal; */
-}
-
-/* book titles for spines*/
-p {
-  font-family: Times;
-  transform: rotate(90deg);
-  font-size: 18px;
-  transform-origin: 90px -50px;
-}
-
+/*found book block*/
 .card {
   border-style: solid;
   width: 250px;
@@ -266,108 +158,3 @@ p {
   margin-top: 40px;
 }
 
-/* @media screen and (min-width: 480px) {
-    .nav {width: 200px; padding:10px;}
-    container {margin-left: 216px;} */
-
-/* @media screen and (max-width: 320px) {
-  h1 {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 370px) {
-  h1 {
-    font-size: 14px;
-  }
-  * {
-    text-align: center !important;
-    width: auto !important;
-    font-size: 14px;
-  }
-
-  .col-3 {
-    align-items: center !important;
-    width: auto !important;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  #permanent-books {
-    align-items: center !important;
-    width: auto !important;
-    border-width: 0px !important;
-    margin: 20%;
-    padding: 0px;
-  }
-
-  btn {
-    align-items: center !important;
-    margin: 20%;
-  }
-
-  .btn-block {
-    align-items: center !important;
-    margin: 20%;
-  }
-
-  .col-3 {
-    width: 50%;
-    align-items: center;
-  }
-  #permanent-books {
-    width: 50%;
-  }
-  .nav-tabs {
-    text-align: center;
-    width: auto;
-    word-wrap: inherit;
-  }
-
-  .btn-block {
-    width: 50%;
-    height: 50%;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 630px) {
-  h1 {
-    font-size: 50px;
-  }
-
-  .col-3 {
-    width: 50%;
-    align-items: center;
-  }
-  #permanent-books {
-    width: 50%;
-    text-align: center;
-  }
-  .nav-tabs {
-    text-align: center;
-    width: auto;
-    word-wrap: break-word;
-  }
-  .btn-block {
-    width: 50%;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 687px) {
-  .col-3 {
-    width: 50%;
-  }
-  .nav-tabs {
-    text-align: center;
-    width: auto;
-    word-wrap: break-word;
-  }
-  #permanent-books {
-    width: auto;
-    text-align: center;
-  }
-  .btn-block {
-    width: 50%;
-  }
-} */
