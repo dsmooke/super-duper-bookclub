@@ -54,7 +54,7 @@ h3 {
 
 /*permanent book collapsed info*/
 h4 {
-  color: white; */
+  color: white;
   padding: 5px;
   padding-left: 10px;
   /* text-align: center; */
@@ -76,46 +76,45 @@ h4 {
   margin-left: 585px;
 }
 
-#collapseVampire{
+#collapseVampire {
   color: white;
   margin-left: 14px;
 }
 
-#collapseOrwell{
+#collapseOrwell {
   color: white;
   margin-left: 300px;
 }
 
-#collapseHenry{
+#collapseHenry {
   color: white;
   margin-left: 585px;
 }
 
-#collapseRing{
+#collapseRing {
   color: white;
   margin-left: 14px;
 }
 
-#collapseMurder{
+#collapseMurder {
   color: white;
   margin-left: 300px;
 }
 
-#collapseGun{
+#collapseGun {
   color: white;
   margin-left: 585px;
 }
 
-#collapseSap{
+#collapseSap {
   color: white;
   margin-left: 14px;
 }
 
-#collapseNote{
+#collapseNote {
   color: white;
   margin-left: 300px;
 }
-
 
 /* book covers */
 #captain {
@@ -137,7 +136,7 @@ h4 {
   /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
   /* word-wrap: break-word; */
   /* white-space: normal; */
-  position:sticky;
+  position: sticky;
 }
 
 /* book cover hover button*/
@@ -157,4 +156,3 @@ button:hover {
   margin: 20px;
   margin-top: 40px;
 }
-
