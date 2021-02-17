@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(233, 12, 148);
+}
+
+h1 {
+  color: rgb(125, 203, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* book cover hover button*/
+button:hover {
+  box-shadow: 0 8px 20px 0 rgb(255, 255, 255);
+}
