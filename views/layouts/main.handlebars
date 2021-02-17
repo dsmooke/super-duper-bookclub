@@ -7,13 +7,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
-    {{!-- <link href="/public/assets/css/style.css" rel="stylesheet"> --}}
+      <link href="/public/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
 
+    <main class="container flex-wrap">
+        <row id="app-title">
+            <h1>Book Swap</h1>
+        </row>
+
+<!--navigation-->
+<div class="row">
+     <h3>Don't know what to look for? Search by genre!</h3>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#!">Fiction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Non-Fiction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Autobiography</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#!">Mystery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#!">Science-Fiction</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#!">Fantasy</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#!">Drama</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#!">Romance</a>
+        </li>
+    </ul>
+</div>   
+
+
     {{{body}}}
     
-    <!--jquery-->
+    <h3>Don't know what to choose? Check out what's on the shelf!</h3>
+
+<div class="row">
+    <div id="permanent-books" class="col-3">
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+        data-target="#collapseCaptain"
+        aria-expanded="false"
+        aria-controls="collapseCaptain"></button>
+            <div class="collapse" id="collapseCaptain">
+            <div class="card card-body">
+              <h4>Title: <br>Captain America </h4>
+              <h4>Author:<br> Dav Pilkey</h4>
+              <h4>Genre: <br>Youth</h4>
+              <h4>Link:</h4>
+            </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseGatsby"
+          aria-expanded="false"
+          aria-controls="collapseGatsby"></button>
+            <div class="collapse" id="collapseGatsby">
+              <div class="card card-body gatsbyCard">
+                <h4>Title: <br>The Great Gatsby </h4>
+                <h4>Author:<br>F. Scott Fitzgerald</h4>
+                <h4>Genre: <br>Fiction</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+        data-target="#collapseWind"
+        aria-expanded="false"
+        aria-controls="collapseWind"></button>
+            <div class="collapse" id="collapseWind">
+            <div class="card card-body">
+              <h4>Title: <br>Gone with the Wind </h4>
+              <h4>Author:<br>Margaret Mitchell</h4>
+              <h4>Genre: <br>Historical-fiction</h4>
+              <h4>Link:</h4>
+            </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseVampire"
+          aria-expanded="false"
+          aria-controls="collapseVampire"></button>
+            <div class="collapse" id="collapseVampire">
+              <div class="card card-body">
+                <h4>Title: <br>Interview with a Vampire </h4>
+                <h4>Author:<br>Anne Rice</h4>
+                <h4>Genre: <br>Horror</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseOrwell"
+          aria-expanded="false"
+          aria-controls="collapseOrwell"></button>
+            <div class="collapse" id="collapseOrwell">
+              <div class="card card-body">
+                <h4>Title: <br>1984</h4>
+                <h4>Author:<br>George Orwell</h4>
+                <h4>Genre: <br>Science-Fiction</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+            data-target="#collapseHenry"
+            aria-expanded="false"
+            aria-controls="collapseHenry"></button>
+            <div class="collapse" id="collapseHenry">
+                <div class="card card-body">
+                  <h4>Title: <br>Henry V</h4>
+                  <h4>Author:<br>William Shakespeare</h4>
+                  <h4>Genre: <br>Drama</h4>
+                  <h4>Link:</h4>
+                </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseRing"
+          aria-expanded="false"
+          aria-controls="collapseRing"></button>
+            <div class="collapse" id="collapseRing">
+              <div class="card card-body">
+                <h4>Title: <br>Lord of the Rings </h4>
+                <h4>Author:<br>J. R. R. Tolkien</h4>
+                <h4>Genre: <br>Fantasy</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+       <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseMurder"
+          aria-expanded="false"
+          aria-controls="collapseMurder"></button>
+            <div class="collapse" id="collapseMurder">
+              <div class="card card-body">
+                <h4>Title: <br>Murder on the Orient Express</h4>
+                <h4>Author:<br>Agatha Christie</h4>
+                <h4>Genre: <br>Mystery</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+            
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseGun"
+          aria-expanded="false"
+          aria-controls="collapseGun"></button>
+            <div class="collapse" id="collapseGun">
+              <div class="card card-body">
+                <h4>Title: <br>Top Gun </h4>
+                <h4>Author:<br>Dan Pederson</h4>
+                <h4>Genre: <br>Autobiography</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+       
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseSap"
+          aria-expanded="false"
+          aria-controls="collapseSap"></button>
+            <div class="collapse" id="collapseSap">
+              <div class="card card-body">
+                <h4>Title: <br>Sapiens </h4>
+                <h4>Author:<br>Uyval Noah Harari</h4>
+                <h4>Genre: <br>Non-Fiction</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+        <button id="captain" type="button" class="btn btn-block" data-toggle="collapse"
+          data-target="#collapseNote"
+          aria-expanded="false"
+          aria-controls="collapseNote"></button>
+            <div class="collapse" id="collapseNote">
+              <div class="card card-body">
+                <h4>Title: <br>The Notebook </h4>
+                <h4>Author:<br>Nicholas Sparks</h4>
+                <h4>Genre: <br>Romance</h4>
+                <h4>Link:</h4>
+              </div>
+            </div>
+
+    </div>
+</div>
+    
+    <div class="card-deck">
+        <div class="bookBlock">
+            <div class="card">
+            <div class="card-body">
+                <h3 id="card-title" class="text-center">Title:{{title}}</h3>
+                <h3 id="card-author" class="text-center">Author:{{author}}</h3>
+                <h3 id="card-genre" class=" text-center">Genre:{{genre}}</h3>
+            </div>
+
+            <div class="save-remove-btns">
+                <button id="save-book" class="btn btn-default" data-id="{{this.id}}">Save</button>
+                <button id="delete-book" class="btn btn-default" data-id="{{this.id}}">Remove</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+
+   <!--collapse button for permanent books--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+       <!--jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/public/assets/js..."></script>
 </body>
