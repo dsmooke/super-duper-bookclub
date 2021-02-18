@@ -177,7 +177,7 @@ h4 {
 
 /* book covers */
 #captain {
-  background-image: url("/public/assets/imgs/used-imgs/book-covers/captain-underpants-book-cover.jpg");
+  background-image: url("/public/assets/imgs/book-covers/captain-underpants-book-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -198,6 +198,225 @@ h4 {
   position: sticky;
 }
 
+#gatsby {
+  background-image: url("/public/assets/imgs/book-covers/thegreatgatsbycover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#wind {
+  background-image: url("/public/assets/imgs/book-covers/gonewiththewindcover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#vampire {
+  background-image: url("/public/assets/imgs/book-covers/interviewwithavampirecover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#orwell {
+  background-image: url("/public/assets/imgs/book-covers/1984cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#henry {
+  background-image: url("/public/assets/imgs/book-covers/kinghenryvcover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#ring {
+  background-image: url("/public/assets/imgs/book-covers/lotrcover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#murder {
+  background-image: url("/public/assets/imgs/book-covers/murderontheorientexpresscover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#gun {
+  background-image: url("/public/assets/imgs/book-covers/topguncover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#sap {
+  background-image: url("/public/assets/imgs/book-covers/sapienscover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
+
+#notebook {
+  background-image: url("/public/assets/imgs/book-covers/thenotebookcover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+  font-size: 5px;
+  /* padding: 20px; */
+  margin: 16px;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  border-style: solid;
+  border-color: rgb(36, 31, 31);
+  border-width: 3px;
+  border-radius: 0.5rem;
+  /* box-shadow: 0px 0px 15px 9px rgba(245, 243, 243, 0.25); */
+  /* word-wrap: break-word; */
+  /* white-space: normal; */
+  position: sticky;
+}
 /* book cover hover button*/
 button:hover {
   box-shadow: 0 8px 20px 0 rgb(255, 255, 255);
