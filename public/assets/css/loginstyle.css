@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(233, 12, 148);
+  background-image: url(/public/assets/imgs/open-book.jpg);
+  background-size: cover;
 }
 
 h1 {
-  color: rgb(125, 203, 255);
+  color: rgb(10, 63, 99);
   font-family: "Times New Roman", Times, serif;
   font-size: 100px;
 }
