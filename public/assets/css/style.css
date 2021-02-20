@@ -2,6 +2,20 @@ body {
   background-color: rgb(12, 12, 11);
 }
 
+#searchBtn {
+  /* background-color: white; */
+  /* padding: 11px; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#searchBtn:hover {
+  box-shadow: 0px 0px 0px;
+}
+.btn-primary {
+  margin-left: 10px;
+  padding: 11px;
+}
+
 .nav-link {
   color: rgb(171, 210, 241) !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
