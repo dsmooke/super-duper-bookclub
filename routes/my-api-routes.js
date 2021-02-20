@@ -9,50 +9,50 @@ custom api for favoring books and trashing books
 
 */
 
-const express = require("express");
-const router = express.Router();
+const db = require("../models");
+module.exports = (app) => {
+  // Create all our api routes and set up logic within those routes where required.
+  app.get("/", async (req, res) => {
+    // res.sendFile(path.join(__dirname, "/views/index.handlebars"))
 
-// Import the model (book.js) to use its database functions
-const book = require("../models/book");
+    //this is sequelize
+    const data = await db.book.find();
 
-// Create all our api routes and set up logic within those routes where required.
-router.get("/", (req, res) => {
-  book.selectAll((data) => {});
-});
+    res.render("favorites", data);
+  });
 
-router.post("/api/favorite-books", (req, res) => {
-  book.insertOne(
-    ["title", "author", "genre"],
-    [req.body.title, req.body.author, req.body.genre],
-    (result) => {
-      res.json({ id: result.insertId });
-    }
-  );
-});
-
-router.put("/api/favorite-books/:id", (req, res) => {
-  const condition = `id = ${req.params.id}`;
-
-  console.log("condition", condition);
-
-  book.updateOne(
-    {
-      title: req.body.title,
-      author: req.body.author,
-      genre: req.body.genre,
-    },
-    condition,
-    (result) => {
-      if (result.changedRows === 0) {
-        // If no rows were changed, the the ID must not exist, so 404 error
-        return res.status(404).end();
+  app.post("/api/books", async (req, res) => {
+    db.book.create(
+      ["title", "author", "genre"],
+      [req.body.title, req.body.author, req.body.genre],
+      (result) => {
+        res.json({ id: result.insertId });
       }
-      res.status(200).end();
-    }
-  );
-});
+    );
+  });
 
+  app.put("/api/books/:id", (req, res) => {
+    const condition = `id = ${req.params.id}`;
+
+    console.log("condition", condition);
+
+    db.book.updateOne(
+      {
+        title: req.body.title,
+        author: req.body.author,
+        genre: req.body.genre,
+      },
+      condition,
+      (result) => {
+        if (result.changedRows === 0) {
+          // If no rows were changed, the the ID must not exist, so 404 error
+          return res.status(404).end();
+        }
+        res.status(200).end();
+      }
+    );
+  });
+};
 // Export routes for server.js to use
-module.exports = router;
 
 //(referenced unit13-activity17-catsController.js)

@@ -1,7 +1,7 @@
 const express = require("express");
 
 // process.env.PORT lets the port be set by Heroku
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -20,12 +20,12 @@ app.set("view engine", "handlebars");
 
 // Data
 
-// handlebar routes?
-
-// Routes - import routes and give the server access to them - for favorited books...
+// Routes - import routes and give the server access to them
 const routes = require("./routes/api-routes");
+const routes2 = require("./routes/html-routes");
 
 app.use(routes);
+app.use(routes2);
 
 // Listener
 app.listen(PORT, () => {
