@@ -8,19 +8,21 @@ for every genre, return five options (first five in genre array)
 
 */
 
-const express = require("express");
-const router = express.Router();
-
-// Import the model (book.js) to use its database functions
-const book = require("../models/book");
+const db = require("../models")
+module.exports = (app) => {
 
 // Create all our api routes and set up logic within those routes where required.
-router.get("/", (req, res) => {
-  book.selectAll((data) => {});
+app.get("/", async (req, res) => {
+  // res.sendFile(path.join(__dirname, "/views/index.handlebars"))
+
+  //this is sequelize
+  const data = await db.book.find();
+
+  res.render("favorites", data)
 });
 
-router.post("/api/books", (req, res) => {
-  book.insertOne(
+app.post("/api/books", async (req, res) => {
+  db.book.create(
     ["title", "author", "genre"],
     [req.body.title, req.body.author, req.body.genre],
     (result) => {
@@ -29,12 +31,12 @@ router.post("/api/books", (req, res) => {
   );
 });
 
-router.put("/api/books/:id", (req, res) => {
+app.put("/api/books/:id", (req, res) => {
   const condition = `id = ${req.params.id}`;
 
   console.log("condition", condition);
 
-  book.updateOne(
+  db.book.updateOne(
     {
       title: req.body.title,
       author: req.body.author,
@@ -51,7 +53,7 @@ router.put("/api/books/:id", (req, res) => {
   );
 });
 
+}
 // Export routes for server.js to use
-module.exports = router;
 
 //(referenced unit13-activity17-catsController.js)
