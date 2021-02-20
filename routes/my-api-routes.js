@@ -1,5 +1,6 @@
-/* Search book based on genre - Select a Genre Dropdown: choose a genre
-for every genre, return five options (first five in genre array)
+/* 
+custom api for favoring books and trashing books
+ will add books from recommendations and from permanent books... from our database
 
 // hard-code bookshelf values so can display covers
 
@@ -19,7 +20,7 @@ router.get("/", (req, res) => {
   book.selectAll((data) => {});
 });
 
-router.post("/api/books", (req, res) => {
+router.post("/api/favorite-books", (req, res) => {
   book.insertOne(
     ["title", "author", "genre"],
     [req.body.title, req.body.author, req.body.genre],
@@ -29,7 +30,7 @@ router.post("/api/books", (req, res) => {
   );
 });
 
-router.put("/api/books/:id", (req, res) => {
+router.put("/api/favorite-books/:id", (req, res) => {
   const condition = `id = ${req.params.id}`;
 
   console.log("condition", condition);
