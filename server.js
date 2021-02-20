@@ -24,12 +24,10 @@ app.set("view engine", "handlebars");
 const routes = require("./routes/api-routes");
 const routes2 = require("./routes/html-routes");
 
-
 app.use(routes);
 app.use(routes2);
 
-
 // Listener
-app.listen(PORT, () =>
-  console.log(`Server listening on: http://localhost:${PORT}`)
-);
+app.listen(PORT, () => {
+  console.log(`Server listening on: http://localhost:${PORT}`);
+});
