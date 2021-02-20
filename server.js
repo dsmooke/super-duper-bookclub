@@ -20,12 +20,14 @@ app.set("view engine", "handlebars");
 
 // Data
 
-// Routes - import routes and give the server access to them
-const routes = require("./controllers/books_controller");
+// handlebar routes?
+
+// Routes - import routes and give the server access to them - for favorited books...
+const routes = require("./routes/api-routes");
 
 app.use(routes);
 
 // Listener
-app.listen(PORT, () =>
-  console.log(`Server listening on: http://localhost:${PORT}`)
-);
+app.listen(PORT, () => {
+  console.log(`Server listening on: http://localhost:${PORT}`);
+});
