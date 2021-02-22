@@ -1,23 +1,20 @@
-// const connection = require("../config/connection.js");
-const ORM = require("../config/orm.js");
-// Import the ORM to create functions that will interact with the database
+// Dependencies
+// =============================================================
 
-// Write code that will call the ORM functions (selectAll, insertOne, updateOne)
+// Sequelize (capital) references the standard library
+const Sequelize = require('sequelize');
+// sequelize (lowercase) references my connection to the DB.
+const sequelize = require('../config/connection.js');
 
-const book = {
-  selectAll(callback) {
-    ORM.selectAll("bookshelf", (res) => callback(res));
-  },
+// Creates a "Book" model that matches up with DB
+const Book = sequelize.define('book', {
+  title: Sequelize.STRING,
+  author: Sequelize.STRING,
+  genre: Sequelize.STRING,
+});
 
-  insertOne(cols, vals, callback) {
-    ORM.insertOne("bookshelf", cols, vals, (res) => callback(res));
-  },
+// Syncs with DB
+Book.sync();
 
-  updateOne(objColVals, condition, callback) {
-    ORM.updateOne("bookshelf", objColVals, condition, (res) => callback(res));
-  },
-};
-
-module.exports = book;
-
-//(referenced unit13-activity17-cat.js)
+// Makes the Book Model available for other files (will also create a table)
+module.exports = Book;

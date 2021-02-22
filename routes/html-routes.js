@@ -1,5 +1,3 @@
-// Dependencies
-const path = require("path");
 
 //save-book.js will save books to wishlist
 
