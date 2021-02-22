@@ -9,7 +9,7 @@ custom api for favoring books and trashing books
 
 */
 
-const db = require("../models");
+const db = require("../models/book");
 module.exports = (app) => {
   // Create all our api routes and set up logic within those routes where required.
   app.get("/", async (req, res) => {
@@ -21,15 +21,18 @@ module.exports = (app) => {
     res.render("favorites", data);
   });
 
-  app.post("/api/books", async (req, res) => {
-    db.book.create(
-      ["title", "author", "genre"],
-      [req.body.title, req.body.author, req.body.genre],
-      (result) => {
-        res.json({ id: result.insertId });
-      }
-    );
-  });
+    // Add a book
+    app.post('/api/new', (req, res) => {
+      console.log('Book Data:');
+      console.log(req.body);
+      Book.create({
+        title: req.body.title,
+        author: req.body.author,
+        genre: req.body.genre,
+        pages: req.body.pages,
+      }).then((results) => res.json(results));
+    });
+  
 
   app.put("/api/books/:id", (req, res) => {
     const condition = `id = ${req.params.id}`;

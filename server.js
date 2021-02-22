@@ -21,11 +21,16 @@ app.set("view engine", "handlebars");
 // Data
 
 // Routes - import routes and give the server access to them
-const routes = require("./routes/api-routes");
+const routes = require("./routes/my-api-routes");
 const routes2 = require("./routes/html-routes");
 
-app.use(routes);
-app.use(routes2);
+// Routes
+require('./routes/my-api-routes')(app);
+require('./routes/html-routes')(app);
+
+
+// app.use(routes);
+// app.use(routes2);
 
 // Listener
 app.listen(PORT, () => {
