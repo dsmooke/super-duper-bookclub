@@ -13,12 +13,14 @@ const db = require("../models/book");
 console.log(db);
 module.exports = (app) => {
   // Create all our api routes and set up logic within those routes where required.
-  app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/index"));
+  app.get("/api", (req, res) => {
+    // res.sendFile(path.join(__dirname, "/views/index"));
 
     //this is sequelize
-    const data = db.Book.find();
-    res.json(data);
+    // const data = db.Book.find();
+    // res.json(data);
+
+    db.findAll().then((result) => res.json(result));
     // res.render("favorites", data);
   });
 
