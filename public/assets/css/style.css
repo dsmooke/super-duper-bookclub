@@ -219,7 +219,7 @@ h4 {
 
 /* book covers */
 #captain {
-  background-image: url("/public/assets/imgs/book-covers/captain-underpants-book-cover.jpg");
+  background-image: url("../assets/imgs/book-covers/captain-underpants-book-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -238,7 +238,7 @@ h4 {
 }
 
 #gatsby {
-  background-image: url("/public/assets/imgs/book-covers/thegreatgatsbycover.jpg");
+  background-image: url("../assets/imgs/book-covers/thegreatgatsbycover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -257,7 +257,7 @@ h4 {
 }
 
 #wind {
-  background-image: url("/public/assets/imgs/book-covers/gonewiththewindcover.jpg");
+  background-image: url("../assets/imgs/book-covers/gonewiththewindcover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -276,7 +276,7 @@ h4 {
 }
 
 #vampire {
-  background-image: url("/public/assets/imgs/book-covers/interviewwithavampirecover.jpg");
+  background-image: url("../assets/imgs/book-covers/interviewwithavampirecover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -295,7 +295,7 @@ h4 {
 }
 
 #orwell {
-  background-image: url("/public/assets/imgs/book-covers/1984cover.jpg");
+  background-image: url("../assets/imgs/book-covers/1984cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -314,7 +314,7 @@ h4 {
 }
 
 #henry {
-  background-image: url("/public/assets/imgs/book-covers/kinghenryvcover.jpg");
+  background-image: url("../assets/imgs/book-covers/kinghenryvcover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -333,7 +333,7 @@ h4 {
 }
 
 #ring {
-  background-image: url("/public/assets/imgs/book-covers/lotrcover.jpg");
+  background-image: url("../assets/imgs/book-covers/lotrcover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -352,7 +352,7 @@ h4 {
 }
 
 #murder {
-  background-image: url("/public/assets/imgs/book-covers/murderontheorientexpresscover.jpg");
+  background-image: url("../assets/imgs/book-covers/murderontheorientexpresscover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -371,7 +371,7 @@ h4 {
 }
 
 #gun {
-  background-image: url("/public/assets/imgs/book-covers/topguncover.jpg");
+  background-image: url("../assets/imgs/book-covers/topguncover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -390,7 +390,7 @@ h4 {
 }
 
 #sap {
-  background-image: url("/public/assets/imgs/book-covers/sapienscover.jpg");
+  background-image: url("../assets/imgs/book-covers/sapienscover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -409,7 +409,7 @@ h4 {
 }
 
 #notebook {
-  background-image: url("/public/assets/imgs/book-covers/thenotebookcover.jpg");
+  background-image: url("../assets/imgs/book-covers/thenotebookcover.jpg");
   background-size: 99.9%;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -427,7 +427,7 @@ h4 {
 }
 
 #wilderness {
-  background-image: url("/public/assets/imgs/book-covers/bravingthewildernesscover.jpg");
+  background-image: url("../assets/imgs/book-covers/bravingthewildernesscover.jpg");
   background-size: 107%;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
