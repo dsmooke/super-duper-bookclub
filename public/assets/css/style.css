@@ -131,64 +131,89 @@ h4 {
 }
 
 /*permanent book collapsed info box and position*/
+/*original margin-left: 14px, 300px, 585px*/
 #collapseCaptain {
   color: white;
-  margin-left: 14px;
+  /* margin-left: 14px; */
+  margin-left: 400px;
+  position: sticky;
 }
 
 #collapseGatsby {
   color: white;
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin-left: 548px;
+  position: sticky;
 }
 
 #collapseWind {
   color: white;
-  margin-left: 585px;
+  /* margin-left: 585px; */
+  margin-left: 690px;
+  position: sticky;
 }
 
 #collapseVampire {
   color: white;
-  margin-left: 14px;
+  /* margin-left: 14px; */
+  margin-left: 400px;
+  position: sticky;
 }
 
 #collapseOrwell {
   color: white;
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin-left: 548px;
+  position: sticky;
 }
 
 #collapseHenry {
   color: white;
-  margin-left: 585px;
+  /* margin-left: 585px; */
+  margin-left: 690px;
+  position: sticky;
 }
 
 #collapseRing {
   color: white;
-  margin-left: 14px;
+  /* margin-left: 14px; */
+  margin-left: 400px;
+  position: sticky;
 }
 
 #collapseMurder {
   color: white;
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin-left: 548px;
+  position: sticky;
 }
 
 #collapseGun {
   color: white;
-  margin-left: 585px;
+  /* margin-left: 585px; */
+  margin-left: 690px;
+  position: sticky;
 }
 
 #collapseSap {
   color: white;
-  margin-left: 14px;
+  /* margin-left: 14px; */
+  margin-left: 400px;
+  position: sticky;
 }
 
 #collapseNote {
   color: white;
-  margin-left: 300px;
+  /* margin-left: 300px; */
+  margin-left: 548px;
+  position: sticky;
 }
 
 #collapseWilderness {
   color: white;
-  margin-left: 300px;
+  /* margin-left: 585px; */
+  margin-left: 690px;
+  position: sticky;
 }
 
 /* book covers */
