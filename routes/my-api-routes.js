@@ -10,29 +10,28 @@ custom api for favoring books and trashing books
 */
 
 const db = require("../models/book");
+console.log(db);
 module.exports = (app) => {
   // Create all our api routes and set up logic within those routes where required.
-  app.get("/", async (req, res) => {
-    // res.sendFile(path.join(__dirname, "/views/index.handlebars"))
+  app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/index"));
 
     //this is sequelize
-    const data = await db.book.find();
-
-    res.render("favorites", data);
+    const data = db.Book.find();
+    res.json(data);
+    // res.render("favorites", data);
   });
 
-    // Add a book
-    app.post('/api/new', (req, res) => {
-      console.log('Book Data:');
-      console.log(req.body);
-      Book.create({
-        title: req.body.title,
-        author: req.body.author,
-        genre: req.body.genre,
-        pages: req.body.pages,
-      }).then((results) => res.json(results));
-    });
-  
+  // Add a book
+  app.post("/api/new", (req, res) => {
+    console.log("Book Data:");
+    console.log(req.body);
+    Book.create({
+      title: req.body.title,
+      author: req.body.author,
+      genre: req.body.genre,
+    }).then((results) => res.json(results));
+  });
 
   app.put("/api/books/:id", (req, res) => {
     const condition = `id = ${req.params.id}`;

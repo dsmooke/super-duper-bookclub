@@ -10,11 +10,12 @@
         href="#!" 
         class="list-group-item list-group-item-action flex-column align-items-start active">
 
-      <div id="recBookHeading-{{[i]}}" 
+      <div id="recBookHeading-{{i}}" 
         class="d-flex w-100 justify-content-between">
 
-          <h5 id="title-{{i}}">
+          <h5 id="title-{{i}}">Title:
             {{resp2.items[i].volumeInfo.title}}</h5>
+<!--check if rename to {{title}} only-->
 
           <h5 id="authors-{{i}}">
             By {{resp2.items[i].volumeInfo.authors}}</h5> 
@@ -22,8 +23,8 @@
           <small id="genre-{{i}}" class="text-muted">
             {{resp2.items[i].volumeInfo.subject}}</small>
 
-            <i id="saveBookBtn" class="far fa-star btn"></i>
-            <i id="trashBookBtn" class="far fa-trash-alt btn"></i>
+            <i id="saveBookBtn" class="far fa-star btn" book-id="{{this.id}}" book-saved="{{saved}}"></i>
+            <i id="trashBookBtn" class="far fa-trash-alt btn" data-id="{{this.id}}"></i>
       </div>
 
       <div id="recBookBody-{{i}}">
