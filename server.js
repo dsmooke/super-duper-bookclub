@@ -25,9 +25,8 @@ const routes = require("./routes/my-api-routes");
 const routes2 = require("./routes/html-routes");
 
 // Routes
-require('./routes/my-api-routes')(app);
-require('./routes/html-routes')(app);
-
+require("./routes/my-api-routes")(app);
+require("./routes/html-routes")(app);
 
 // app.use(routes);
 // app.use(routes2);

@@ -1,4 +1,3 @@
-
 //save-book.js will save books to wishlist
 
 // routes look inside views (sees layout and partials folder)
@@ -12,15 +11,17 @@ const path = require("path");
 module.exports = (app) => {
   // Each of the below routes just handles the HTML page that the user gets sent to.
 
-  // Index route loads view.html
+  // Index route loads main.handlebars and index.handlebars
   app.get("/", (req, res) =>
-    res.sendFile(path.join(__dirname, "../views/index"))
+    res.sendFile(path.join(__dirname, "../views/main"))
   );
 
   // Add route loads the add.html page,
-  // Where users can enter new characters to the db
-  app.get("/wishlist", (req, res) =>
-    res.sendFile(path.join(__dirname, "../views/wishlist"))
+  // Where users can view their wishlist from the db
+  app.get(
+    "/wishlist",
+    (req, res) => res.sendFile(path.join(__dirname, "../views/wishlist"))
+    // res.render("favorites", data);
   );
 
   //   // All route loads the all.html page,
