@@ -13,14 +13,15 @@ module.exports = (app) => {
 
   // Index route loads main.handlebars and index.handlebars
   app.get("/", (req, res) =>
-    res.sendFile(path.join(__dirname, "../views/index.handlebars"))
+    res.render(path.join(__dirname, "../views/index.handlebars"))
   );
 
   // Add route loads the add.html page,
   // Where users can view their wishlist from the db
   app.get(
     "/wishlist",
-    (req, res) => res.sendFile(path.join(__dirname, "../views/wishlist.handlebars"))
+    (req, res) =>
+      res.render(path.join(__dirname, "../views/wishlist.handlebars"))
     // res.render("favorites", data);
   );
 

@@ -18,7 +18,7 @@ const book1 = Book.create({
   author: "Doe",
   genre: "mystery",
 });
-console.log("Jane's auto-generated ID:", sequelize.models.modelName);
+console.log("Jane's auto-generated ID:", sequelize.models.Book);
 
 // Syncs with DB
 Book.sync();

@@ -1,16 +1,16 @@
 // Dependencies
 const Sequelize = require("sequelize");
 
-// Creates mySQL connection using Sequelize, the empty string in the third argument spot is our password.
-const sequelize = new Sequelize("bookshelf_db", "root", "password", {
-  host: "localhost",
+const databaseConnection = {
+  username: "root",
+  password: "password",
+  database: "bookshelf_db",
+  host: "127.0.0.1",
   port: 3306,
   dialect: "mysql",
-  pool: {
-    max: 5,
-    min: 0,
-    idle: 10000,
-  },
-});
+};
+
+// Creates mySQL connection using Sequelize, the empty string in the third argument spot is our password.
+const sequelize = new Sequelize(process.env.JAWSDB_URL || databaseConnection);
 
 module.exports = sequelize;
