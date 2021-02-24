@@ -59,11 +59,11 @@ async function handleSubmit() {
     titleArr = [];
     authorArr = [];
 
-    var titleText = $("<h5>").text(title); //<h5>
+    var titleText = $("<h3>").text(title); //<h3>
     titleText.addClass("title" + i); //to id="title-1.."
     $(".da-books").append(titleText); // (#recBox)/#recBook1
 
-    var authorText = $("<h5>").text(authors);
+    var authorText = $("<h4>").text(authors);
     authorText.addClass("author" + i);
     $(".da-books").append(authorText);
 
