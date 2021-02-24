@@ -6,7 +6,7 @@
 
 This is the second project (fifthteenth assigment) from the UConn Coding Boot Camp curriculum.
 
-View the deployed app [here](heroku link)
+View the deployed app [here](https://super-duper-bookclub.herokuapp.com/?)
 
 ## Table of Contents
 
@@ -198,11 +198,12 @@ The goals above and the tutorial can be further understood with the following de
 ## Usage
 
 Display of the bookshelf:
+
 ![bookshelf-demo-gif](public/assets/imgs/Book-Swap.gif)
 
 Recommendations based on the user's input will be displayed in the following way:
 
-![recs page demo](public/assets/imgs/bookswap-recs-demo.png)
+![recs page demo](public/assets/imgs/bookswap-recs-demo2.png)
 
 ## Credits
 
@@ -216,6 +217,10 @@ Reference articles:
 [ClickMinded - button generator](https://www.clickminded.com/button-generator/)
 
 [Sequelize - Documentation](https://sequelize.org/master/class/lib/sequelize.js~Sequelize.html#instance-method-define)
+
+## Bugs
+
+App and API call works when load `test-view.html` but Heroku deployed app does not retrieve API and handlebars for each view. (As of Feb. 23, 2021).
 
 ## Contributors
 
