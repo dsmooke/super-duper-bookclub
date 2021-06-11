@@ -1,10 +1,16 @@
 # Super Duper Bookclub
 
+<span align="left">
+
+<a href="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen?style=plastic"/></a>
+
+ </span>
+ 
 ![Book Swap](public/assets/imgs/book-swap-main.png)
 
 ## Description
 
-This is the second project (fifthteenth assigment) from the UConn Coding Boot Camp curriculum.
+A group-made application that was designed and built using the MVC paradigm and your own server-side API. 
 
 View the deployed app [here](https://super-duper-bookclub.herokuapp.com/?)
 
@@ -220,7 +226,7 @@ Reference articles:
 
 ## Bugs
 
-App and API call works when load `test-view.html` but Heroku deployed app does not retrieve API and handlebars for each view. (As of Feb. 23, 2021).
+** **(Feb. 23, 2021)** App and API call works when load `test-view.html` but Heroku deployed app does not retrieve API and handlebars for each view. **
 
 ## Contributors
 
